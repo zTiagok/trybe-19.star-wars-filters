@@ -233,9 +233,6 @@ Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência 
 ---
 
 ## 1 - Faça uma requisição para o endpoint `/planets` da API de Star Wars e preencha uma tabela com os dados retornados, com exceção dos dados da coluna `residents`
-
-> :eyes: Observação: Para evitar erros no avaliador, na preparação do seu ambiente de trabalho para o uso do Context API, é necessário que o `<Provider>` seja usado dentro do componente `App.js` e não no arquivo `index.js`. Esta orientação tem finalidade exclusiva para os testes deste projeto.
-
 <details><summary> Ilustração da tabela:</summary>
 
   ![image](req-1.png)
