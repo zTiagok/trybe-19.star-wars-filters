@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import './App.css';
+import { act } from 'react-dom/test-utils';
 import Table from './components/Table';
 import { Context } from './context/Provider';
 import fetchPlanets from './API/StarWarsAPI';
@@ -16,7 +17,9 @@ function App() {
     async function fetchData() {
       const response = await fetchPlanets();
 
-      setPlanetsAPI(response);
+      act(() => {
+        setPlanetsAPI(response);
+      });
     }
 
     fetchData();
