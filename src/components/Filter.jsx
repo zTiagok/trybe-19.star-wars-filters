@@ -49,7 +49,10 @@ export default function Filter() {
     const columns = ['population', 'orbital_period',
       'diameter', 'rotation_period', 'surface_water'];
 
-    return columns.map((column) => (
+    const filteredColumns = filterByNumericValues.map((filter) => filter.column);
+    const appliedColumns = columns.filter((column) => !filteredColumns.includes(column));
+
+    return appliedColumns.map((column) => (
       <option value={ column } key={ column }>
         { column }
       </option>

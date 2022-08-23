@@ -5,6 +5,7 @@ import Table from './components/Table';
 import { Context } from './context/Provider';
 import fetchPlanets from './API/StarWarsAPI';
 import Filter from './components/Filter';
+import FilterPrompts from './components/FilterPrompts';
 
 function App() {
   const allContext = useContext(Context);
@@ -28,6 +29,7 @@ function App() {
   return (
     <>
       <Filter />
+      <FilterPrompts />
       <Table />
     </>
   );

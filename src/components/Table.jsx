@@ -9,11 +9,11 @@ export default function Table() {
     .includes(filterByName.toUpperCase())));
 
   const filterValue = () => {
-    const filteredPlanets = filterByNumericValues.reduce((prev, current) => {
-      console.log('PREV', prev);
-      console.log('CURR', current);
+    const filteredPlanets = filterByNumericValues.reduce((prev, current) =>
+    // console.log('PREV', prev);
+    // console.log('CURR', current);
 
-      return prev.filter((filter) => {
+      prev.filter((filter) => {
         if (current.comparison === 'maior que') {
           return Number(filter[current.column]) > Number(current.value);
         }
@@ -27,8 +27,8 @@ export default function Table() {
         }
 
         return null;
-      });
-    }, planetsAPI);
+      }),
+    planetsAPI);
 
     return filterName(filteredPlanets);
   };
