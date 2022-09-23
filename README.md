@@ -1,9 +1,9 @@
 <div align="center">
   <h3>
-    Check out this project <a href="-"> website</a>! 
+    I'm working on this project <a href="-"> website</a>! 
   <h3>
   <h2>
-    -
+    Star Wars Filters
     <br><br>
   </h2>
 
@@ -21,16 +21,18 @@
     🚨 Warning 🚨
   </h3>
   <br>
-  <span> The test files were provided by Trybe to evaluate the project. </span>
+  <span> Some test files were provided by Trybe to evaluate the project. </span>
+  <br><br>
+  <b> The tests in the "/src/tests" folder were all made by me! </b>
   <br>
   <hr>
   <h3>
     ℹ️ Information ℹ️
   </h3>
   <br>
-  <span> - </span> 
+  <span> An application of a table with the Star Wars planets with a complex filter system using the forms, being able to filter only the row you want using the search and filters. </span> 
   <br><br>
-  <span> - </span>
+  <span> Instead of using React, this time we used the Context API for communication between components, helping a lot to transcribe data and filters between components in the project. </span>
   <br>
   <hr>
   <h3>
@@ -39,27 +41,27 @@
   <div align="left">
   <br>
   
-- [X] 1. 
-- [X] 2. 
-- [X] 3. 
-- [X] 4. 
-- [X] 5. 
-- [X] 6. 
-- [X] 7. 
-- [X] 8.
-- [X] 9. 
-- [X] 10. 
-- [X] 11. 
-- [X] 12. 
+- [X] 1. Make a request to the Star Wars API endpoint `/planets` and populate a table with the returned data, except for the `residents` column.
+- [X] 2. Create a text filter for the table.
+- [X] 3. Create a filter for numeric values.
+- [X] 4. Implement multiple numeric filters.
+- [X] 5. Develop tests to achieve 30% total application coverage.
+- [X] 6. Make it not possible to repeat filters.
+- [X] 7. Delete a numeric value filter by clicking on the `X` icon of one of the filters and delete all numeric filtering simultaneously by clicking on another `Remove All` filtering button.
+- [X] 8. Develop tests to achieve 60% total application coverage.
   </div>
   <br>
   <hr>
   <h3>
-    📄 Pages and Components 📄
+   📄 Features 📄
   </h3>
   <br>
-  <span> - </span>
-  <br>
+  <span> ◐ Use the name input to search for the name of your desired planet. ◑ </span>
+  <br><br>
+  <span> ◐ Use the filters form to search in any of the columns of the table. ◑ </span>
+  <br><br>
+    <span> ◐ Remove filters individually by clicking on the `X`, or use the dedicated button to remove them all simultaneously. ◑ </span>
+  <br><br>
   <hr>
   <h3>
     📦 Frameworks and Libraries 📦
@@ -72,8 +74,16 @@
     </thead>
     <tbody>
       <tr>
-        <td> - </td>
-        <td> - </td>
+        <td> React JS </td>
+        <td> 17.0.2 </td>
+      </tr>
+      <tr>
+        <td> Context API </td>
+        <td> 17.0.2 </td>
+      </tr>
+      <tr>
+        <td> Prop-types </td>
+        <td> 15.8.1" </td>
       </tr>
     </tbody>
   </table>
