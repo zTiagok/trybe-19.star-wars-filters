@@ -60,7 +60,7 @@
   <br><br>
   <span> ◐ Use the filters form to search in any of the columns of the table. ◑ </span>
   <br><br>
-    <span> ◐ Remove filters individually by clicking on the `X`, or use the dedicated button to remove them all simultaneously. ◑ </span>
+    <span> ◐ Remove filters individually by clicking on the "X", or use the dedicated button to remove them all simultaneously. ◑ </span>
   <br><br>
   <hr>
   <h3>
