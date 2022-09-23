@@ -83,7 +83,7 @@
       </tr>
       <tr>
         <td> Prop-types </td>
-        <td> 15.8.1" </td>
+        <td> 15.8.1 </td>
       </tr>
     </tbody>
   </table>
